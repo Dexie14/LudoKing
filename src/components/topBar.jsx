@@ -2,7 +2,7 @@ import OpenCard from "../components/openCard";
 
 const topBar = () => {
   return (
-    <div className="bg-[#0F002B] px-6 py-4 flex justify-between">
+    <div className="bg-[#0F002B] px-6 py-4 flex justify-between h-full">
       <section className="w-1/2">
         <p className="font-inter text-xl text-white font-normal">
           live open <span className="font-semibold">challenge</span>
@@ -66,7 +66,7 @@ const topBar = () => {
           </div>
         </div>
         <div className="w-11/12 mt-7 mx-auto">
-          <div className="flex gap-5">
+          <div className="flex flex-wrap gap-5">
             <div className="bg-white flex gap-8 justify-between items-center px-8 py-5 rounded-xl">
               <div
                 className=" flex justify-center items-center border rounded-full border-[#bdbdbd] h-[40px] w-[40px]"

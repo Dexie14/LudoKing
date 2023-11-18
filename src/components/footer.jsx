@@ -1,15 +1,18 @@
 import shield from "../assets/yellow.svg";
+
+import move from "../assets/move.svg"
 const footer = () => {
   return (
-    <div className="bg-[#FFB653] pt-5 pb-10 px-8 ">
+    <div className="bg-[#FFB653] pt-5 pb-10 px-8 relative ">
       <p className="font-inter text-xl font-normal ">
         start your own <span className="font-semibold">battle</span>
       </p>
       <section className="w-10/12 mx-auto flex justify-between gap-5 mt-10">
+        <img src={move} alt="" className="mx-auto absolute left-0 right-0 top-[-15%]"/>
         <div className="w-[35%]">
           <div className="bg-white px-5 py-3 flex justify-between items-center rounded-xl ">
             <p>
-              ₹{" "}
+              ₹
               <span className="ml-3 text-black text-opacity-[57%]">
                 Your battle amount
               </span>
